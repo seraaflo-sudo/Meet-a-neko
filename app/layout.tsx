@@ -1,6 +1,9 @@
 export const metadata = {
-  title: 'Meet a Neko',
-  description: 'Website kucing lucu',
+  title: 'Meet a Neko - Private Condo',
+  description: 'Join private Roblox Neko condo server',
+  icons: {
+    icon: 'https://i.imgur.com/8QfXbL2.png',
+  }
 }
 
 export default function RootLayout({
