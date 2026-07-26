@@ -4,10 +4,9 @@ export default function Home() {
       minHeight: '100vh', 
       background: 'linear-gradient(135deg, #0a0a0a, #1a0a1a)', 
       display: 'flex', 
-      flexDirection: 'column', 
       alignItems: 'center', 
       justifyContent: 'center',
-      fontFamily: 'Arial',
+      fontFamily: "'Poppins', 'Arial', sans-serif",
       padding: '20px',
       textAlign: 'center'
     }}>
@@ -25,7 +24,7 @@ export default function Home() {
           alt="anime girl"
           style={{width: '160px', height: '160px', borderRadius: '50%', border: '2px solid #FF69B4', objectFit: 'cover', boxShadow: '0 0 20px rgba(255,105,180,0.4)'}}
         />
-        <h1 style={{fontSize: '42px', color: '#e0e0e0', margin: '15px 0', fontWeight: '600'}}>🐱 Meet a Neko 🐱</h1>
+        <h1 style={{fontSize: '42px', color: '#e0e0e0', margin: '15px 0', fontWeight: '700'}}>🥵 Meet a Neko 😳</h1>
         <p style={{fontSize: '16px', color: '#888', marginBottom: '30px', letterSpacing: '1px'}}>
           PRIVATE CONDO SERVER
         </p>
@@ -40,10 +39,9 @@ export default function Home() {
             borderRadius: '12px',
             textDecoration: 'none',
             fontSize: '18px',
-            fontWeight: 'bold',
+            fontWeight: '600',
             border: '1px solid #FF69B4',
-            display: 'inline-block',
-            transition: '0.3s'
+            display: 'inline-block'
           }}
         >
           JOIN SERVER NOW
